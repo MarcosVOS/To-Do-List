@@ -1,0 +1,9 @@
+{
+  "short_name": "To-Do list App",
+  "name": "Create To-Do list App",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

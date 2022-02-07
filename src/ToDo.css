@@ -1,0 +1,106 @@
+.container{
+  margin: auto;
+  max-width: 600px;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.card{
+  box-shadow: 0 2px 7px 1px rgba(0,0,0, 0.2);
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addButton{
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 30%;
+}
+
+.addButton:hover{
+  transition: 1s;
+  width: 60px;
+  height: 60px;
+}
+
+.modal{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top:0;
+  left: 0;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+.hide{
+  display: none;
+}
+
+.cardModal{
+  padding: 45px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+button{
+  background:none;
+  border-style: none;
+}
+
+img:hover{
+  transition: 4s;
+  width: 45px;
+  height: 45px;
+}
+
+input{
+  height: 42px;
+  width: 300px;
+  font-size: 24px;
+}
+
+input:focus{
+  box-shadow: none;
+  background:none;
+}
+
+form{
+  display: flex;
+}
+
+.buttonAdd{
+  color: white;
+  padding:16px;
+  background-color: black;
+  border-radius: 5px;
+}
+
