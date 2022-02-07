@@ -55,7 +55,7 @@ function ToDo(){
 
   return(
     <div className='container'>
-      <header className='header'><h1>ToDo</h1><button className='addButton' onClick={()=>{setShowModal(true)}}>+</button></header>
+      <header className='header'><h1>TO-DO LIST</h1><button className='addButton' onClick={()=>{setShowModal(true)}}>+</button></header>
       <List onDone={onDone} onItemDeleted={onItemDeleted} items={items}></List>
       <Modal show={showModal} onHideModal={onHideModal}><TodoForm onAddItem={onAddItem} ></TodoForm></Modal>
     </div>

@@ -19,7 +19,7 @@ function TodoForm(props){
 
   return(
     <form>
-      <input onChange={handleChange} type="text" value={text}></input>
+      <input onChange={handleChange} type="text" value={text} placeholder="Digite a tarefa"></input>
       <button className='buttonAdd' onClick={addItem}>Add</button>
     </form>
   )
